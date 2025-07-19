@@ -1,5 +1,36 @@
+# DeepFake Creation and Detection of Multimedia Data 🎭🔍
+
+## 📌 Overview
+
+This project explores both the **creation** and **detection** of DeepFakes in multimedia content. While the generation aspect is purely educational, the focus is on building a robust DeepFake **detection pipeline** using computer vision and deep learning techniques.
 
 ---
+
+## 🎯 Objectives
+
+- Understand DeepFake generation using encoder-decoder models (for academic purpose only).
+- Build a DeepFake detection system using **ResNet50 + LSTM**.
+- Trigger **real-time alerts** using Telegram bots.
+- Evaluate model performance on test images/videos.
+
+---
+
+## 🛠️ Tools and Technologies
+
+- Python, Google Colab
+- TensorFlow, Keras
+- OpenCV, MTCNN, dlib
+- Telepot (Telegram Bot API)
+- Streamlit (optional UI)
+
+## 📁 Folder Structure
+📂 datasets  
+├── 📂 celeb_df  
+│   ├── 📄 real/ — Real .mp4 videos  
+│   └── 📄 fake/ — DeepFake .mp4 videos  
+└── 📂 preprocessed  
+    ├── 📄 real/ — Extracted real face images  
+    └── 📄 fake/ — Extracted fake face images  
 
 ## 📦 Dataset
 
